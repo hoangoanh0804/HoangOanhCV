@@ -446,7 +446,7 @@ header .follow a:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     background:#fff;
     border-radius: .5rem;
-    margin: 55px;
+    margin: 50px;
     
 }
  
@@ -455,7 +455,8 @@ header .follow a:hover{
 .portfolio .box-container .box img{
     height:100%;
     width:100%;
-    object-fit: cover;
+    /* object-fit: cover; */
+    object-fit: fill;
     border-radius: .5rem;
     position: relative;
     z-index: 1;
